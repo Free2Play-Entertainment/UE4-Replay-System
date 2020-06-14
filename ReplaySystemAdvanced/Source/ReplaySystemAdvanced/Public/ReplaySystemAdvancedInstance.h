@@ -15,25 +15,25 @@ struct FS_ReplaySystemReplayInfo
 {
     GENERATED_BODY()
 
-        UPROPERTY(BlueprintReadOnly)
+        UPROPERTY(EditAnywhere, BlueprintReadWrite)
         FString ReplayName;
 
-    UPROPERTY(BlueprintReadOnly)
+    UPROPERTY(EditAnywhere, BlueprintReadWrite)
         FString FriendlyName;
 
-    UPROPERTY(BlueprintReadOnly)
+    UPROPERTY(EditAnywhere, BlueprintReadWrite)
         FString MapName;
 
-    UPROPERTY(BlueprintReadOnly)
+    UPROPERTY(EditAnywhere, BlueprintReadWrite)
         FString Gamemode;
 
-    UPROPERTY(BlueprintReadOnly)
+    UPROPERTY(EditAnywhere, BlueprintReadWrite)
         FDateTime Timestamp;
 
-    UPROPERTY(BlueprintReadOnly)
+    UPROPERTY(EditAnywhere, BlueprintReadWrite)
         int32 LengthInMS;
 
-    UPROPERTY(BlueprintReadOnly)
+    UPROPERTY(EditAnywhere, BlueprintReadWrite)
         bool bIsValid;
 
     FS_ReplaySystemReplayInfo(FString NewName, FString NewFriendlyName, FString NewMapName, FString NewGamemode, FDateTime NewTimestamp, int32 NewLengthInMS)

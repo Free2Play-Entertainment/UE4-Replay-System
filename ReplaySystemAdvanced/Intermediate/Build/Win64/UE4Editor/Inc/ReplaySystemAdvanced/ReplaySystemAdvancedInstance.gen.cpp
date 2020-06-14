@@ -108,49 +108,49 @@ static struct FScriptStruct_ReplaySystemAdvanced_StaticRegisterNativesFS_ReplayS
 	{
 		((FS_ReplaySystemReplayInfo*)Obj)->bIsValid = 1;
 	}
-	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UScriptStruct_FS_ReplaySystemReplayInfo_Statics::NewProp_bIsValid = { "bIsValid", nullptr, (EPropertyFlags)0x0010000000000014, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(FS_ReplaySystemReplayInfo), &Z_Construct_UScriptStruct_FS_ReplaySystemReplayInfo_Statics::NewProp_bIsValid_SetBit, METADATA_PARAMS(Z_Construct_UScriptStruct_FS_ReplaySystemReplayInfo_Statics::NewProp_bIsValid_MetaData, ARRAY_COUNT(Z_Construct_UScriptStruct_FS_ReplaySystemReplayInfo_Statics::NewProp_bIsValid_MetaData)) };
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UScriptStruct_FS_ReplaySystemReplayInfo_Statics::NewProp_bIsValid = { "bIsValid", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(FS_ReplaySystemReplayInfo), &Z_Construct_UScriptStruct_FS_ReplaySystemReplayInfo_Statics::NewProp_bIsValid_SetBit, METADATA_PARAMS(Z_Construct_UScriptStruct_FS_ReplaySystemReplayInfo_Statics::NewProp_bIsValid_MetaData, ARRAY_COUNT(Z_Construct_UScriptStruct_FS_ReplaySystemReplayInfo_Statics::NewProp_bIsValid_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FS_ReplaySystemReplayInfo_Statics::NewProp_LengthInMS_MetaData[] = {
 		{ "Category", "S_ReplaySystemReplayInfo" },
 		{ "ModuleRelativePath", "Public/ReplaySystemAdvancedInstance.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FIntPropertyParams Z_Construct_UScriptStruct_FS_ReplaySystemReplayInfo_Statics::NewProp_LengthInMS = { "LengthInMS", nullptr, (EPropertyFlags)0x0010000000000014, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(FS_ReplaySystemReplayInfo, LengthInMS), METADATA_PARAMS(Z_Construct_UScriptStruct_FS_ReplaySystemReplayInfo_Statics::NewProp_LengthInMS_MetaData, ARRAY_COUNT(Z_Construct_UScriptStruct_FS_ReplaySystemReplayInfo_Statics::NewProp_LengthInMS_MetaData)) };
+	const UE4CodeGen_Private::FIntPropertyParams Z_Construct_UScriptStruct_FS_ReplaySystemReplayInfo_Statics::NewProp_LengthInMS = { "LengthInMS", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(FS_ReplaySystemReplayInfo, LengthInMS), METADATA_PARAMS(Z_Construct_UScriptStruct_FS_ReplaySystemReplayInfo_Statics::NewProp_LengthInMS_MetaData, ARRAY_COUNT(Z_Construct_UScriptStruct_FS_ReplaySystemReplayInfo_Statics::NewProp_LengthInMS_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FS_ReplaySystemReplayInfo_Statics::NewProp_Timestamp_MetaData[] = {
 		{ "Category", "S_ReplaySystemReplayInfo" },
 		{ "ModuleRelativePath", "Public/ReplaySystemAdvancedInstance.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FS_ReplaySystemReplayInfo_Statics::NewProp_Timestamp = { "Timestamp", nullptr, (EPropertyFlags)0x0010000000000014, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(FS_ReplaySystemReplayInfo, Timestamp), Z_Construct_UScriptStruct_FDateTime, METADATA_PARAMS(Z_Construct_UScriptStruct_FS_ReplaySystemReplayInfo_Statics::NewProp_Timestamp_MetaData, ARRAY_COUNT(Z_Construct_UScriptStruct_FS_ReplaySystemReplayInfo_Statics::NewProp_Timestamp_MetaData)) };
+	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UScriptStruct_FS_ReplaySystemReplayInfo_Statics::NewProp_Timestamp = { "Timestamp", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(FS_ReplaySystemReplayInfo, Timestamp), Z_Construct_UScriptStruct_FDateTime, METADATA_PARAMS(Z_Construct_UScriptStruct_FS_ReplaySystemReplayInfo_Statics::NewProp_Timestamp_MetaData, ARRAY_COUNT(Z_Construct_UScriptStruct_FS_ReplaySystemReplayInfo_Statics::NewProp_Timestamp_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FS_ReplaySystemReplayInfo_Statics::NewProp_Gamemode_MetaData[] = {
 		{ "Category", "S_ReplaySystemReplayInfo" },
 		{ "ModuleRelativePath", "Public/ReplaySystemAdvancedInstance.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FStrPropertyParams Z_Construct_UScriptStruct_FS_ReplaySystemReplayInfo_Statics::NewProp_Gamemode = { "Gamemode", nullptr, (EPropertyFlags)0x0010000000000014, UE4CodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(FS_ReplaySystemReplayInfo, Gamemode), METADATA_PARAMS(Z_Construct_UScriptStruct_FS_ReplaySystemReplayInfo_Statics::NewProp_Gamemode_MetaData, ARRAY_COUNT(Z_Construct_UScriptStruct_FS_ReplaySystemReplayInfo_Statics::NewProp_Gamemode_MetaData)) };
+	const UE4CodeGen_Private::FStrPropertyParams Z_Construct_UScriptStruct_FS_ReplaySystemReplayInfo_Statics::NewProp_Gamemode = { "Gamemode", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(FS_ReplaySystemReplayInfo, Gamemode), METADATA_PARAMS(Z_Construct_UScriptStruct_FS_ReplaySystemReplayInfo_Statics::NewProp_Gamemode_MetaData, ARRAY_COUNT(Z_Construct_UScriptStruct_FS_ReplaySystemReplayInfo_Statics::NewProp_Gamemode_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FS_ReplaySystemReplayInfo_Statics::NewProp_MapName_MetaData[] = {
 		{ "Category", "S_ReplaySystemReplayInfo" },
 		{ "ModuleRelativePath", "Public/ReplaySystemAdvancedInstance.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FStrPropertyParams Z_Construct_UScriptStruct_FS_ReplaySystemReplayInfo_Statics::NewProp_MapName = { "MapName", nullptr, (EPropertyFlags)0x0010000000000014, UE4CodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(FS_ReplaySystemReplayInfo, MapName), METADATA_PARAMS(Z_Construct_UScriptStruct_FS_ReplaySystemReplayInfo_Statics::NewProp_MapName_MetaData, ARRAY_COUNT(Z_Construct_UScriptStruct_FS_ReplaySystemReplayInfo_Statics::NewProp_MapName_MetaData)) };
+	const UE4CodeGen_Private::FStrPropertyParams Z_Construct_UScriptStruct_FS_ReplaySystemReplayInfo_Statics::NewProp_MapName = { "MapName", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(FS_ReplaySystemReplayInfo, MapName), METADATA_PARAMS(Z_Construct_UScriptStruct_FS_ReplaySystemReplayInfo_Statics::NewProp_MapName_MetaData, ARRAY_COUNT(Z_Construct_UScriptStruct_FS_ReplaySystemReplayInfo_Statics::NewProp_MapName_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FS_ReplaySystemReplayInfo_Statics::NewProp_FriendlyName_MetaData[] = {
 		{ "Category", "S_ReplaySystemReplayInfo" },
 		{ "ModuleRelativePath", "Public/ReplaySystemAdvancedInstance.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FStrPropertyParams Z_Construct_UScriptStruct_FS_ReplaySystemReplayInfo_Statics::NewProp_FriendlyName = { "FriendlyName", nullptr, (EPropertyFlags)0x0010000000000014, UE4CodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(FS_ReplaySystemReplayInfo, FriendlyName), METADATA_PARAMS(Z_Construct_UScriptStruct_FS_ReplaySystemReplayInfo_Statics::NewProp_FriendlyName_MetaData, ARRAY_COUNT(Z_Construct_UScriptStruct_FS_ReplaySystemReplayInfo_Statics::NewProp_FriendlyName_MetaData)) };
+	const UE4CodeGen_Private::FStrPropertyParams Z_Construct_UScriptStruct_FS_ReplaySystemReplayInfo_Statics::NewProp_FriendlyName = { "FriendlyName", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(FS_ReplaySystemReplayInfo, FriendlyName), METADATA_PARAMS(Z_Construct_UScriptStruct_FS_ReplaySystemReplayInfo_Statics::NewProp_FriendlyName_MetaData, ARRAY_COUNT(Z_Construct_UScriptStruct_FS_ReplaySystemReplayInfo_Statics::NewProp_FriendlyName_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UScriptStruct_FS_ReplaySystemReplayInfo_Statics::NewProp_ReplayName_MetaData[] = {
 		{ "Category", "S_ReplaySystemReplayInfo" },
 		{ "ModuleRelativePath", "Public/ReplaySystemAdvancedInstance.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FStrPropertyParams Z_Construct_UScriptStruct_FS_ReplaySystemReplayInfo_Statics::NewProp_ReplayName = { "ReplayName", nullptr, (EPropertyFlags)0x0010000000000014, UE4CodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(FS_ReplaySystemReplayInfo, ReplayName), METADATA_PARAMS(Z_Construct_UScriptStruct_FS_ReplaySystemReplayInfo_Statics::NewProp_ReplayName_MetaData, ARRAY_COUNT(Z_Construct_UScriptStruct_FS_ReplaySystemReplayInfo_Statics::NewProp_ReplayName_MetaData)) };
+	const UE4CodeGen_Private::FStrPropertyParams Z_Construct_UScriptStruct_FS_ReplaySystemReplayInfo_Statics::NewProp_ReplayName = { "ReplayName", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(FS_ReplaySystemReplayInfo, ReplayName), METADATA_PARAMS(Z_Construct_UScriptStruct_FS_ReplaySystemReplayInfo_Statics::NewProp_ReplayName_MetaData, ARRAY_COUNT(Z_Construct_UScriptStruct_FS_ReplaySystemReplayInfo_Statics::NewProp_ReplayName_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UScriptStruct_FS_ReplaySystemReplayInfo_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FS_ReplaySystemReplayInfo_Statics::NewProp_bIsValid,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UScriptStruct_FS_ReplaySystemReplayInfo_Statics::NewProp_LengthInMS,
@@ -188,7 +188,7 @@ static struct FScriptStruct_ReplaySystemAdvanced_StaticRegisterNativesFS_ReplayS
 		}
 		return ReturnStruct;
 	}
-	uint32 Get_Z_Construct_UScriptStruct_FS_ReplaySystemReplayInfo_Hash() { return 3938064512U; }
+	uint32 Get_Z_Construct_UScriptStruct_FS_ReplaySystemReplayInfo_Hash() { return 2735507665U; }
 	static FName NAME_UReplaySystemAdvancedInstance_BP_OnFindReplaysComplete = FName(TEXT("BP_OnFindReplaysComplete"));
 	void UReplaySystemAdvancedInstance::BP_OnFindReplaysComplete(TArray<FS_ReplaySystemReplayInfo> const& AllReplays)
 	{

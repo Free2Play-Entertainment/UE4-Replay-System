@@ -21,7 +21,7 @@ void EmptyLinkFunctionForGeneratedCodeReplaySystemAdvanced_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0x1C03221B,
+				0x8022C6E7,
 				0x80E787E8,
 				METADATA_PARAMS(nullptr, 0)
 			};

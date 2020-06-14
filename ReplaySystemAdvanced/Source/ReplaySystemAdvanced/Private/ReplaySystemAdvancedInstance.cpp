@@ -1,6 +1,6 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
-
+#
 #include "ReplaySystemAdvancedInstance.h"
 #include "ReplaySystemAdvanced.h"
 #include "Runtime/Core/Public/Misc/Paths.h"
@@ -76,9 +76,10 @@ void UReplaySystemAdvancedInstance::FindReplays()
 {
 	if (EnumerateStreamsPtr.Get())
 	{	/*Nur eine lösung für den error eigentlich müsste da statt FEnumerateStreamsCallback OnEnumerateStreamsCompleteDelegate hin*/
-		EnumerateStreamsPtr.Get()->EnumerateStreams(FNetworkReplayVersion(), FString(), FString(), FEnumerateStreamsCallback());
-	};
-}
+	EnumerateStreamsPtr.Get()->EnumerateStreams(FNetworkReplayVersion(), FString(), FString(), FEnumerateStreamsCallback());
+	}
+} 
+
 
 void UReplaySystemAdvancedInstance::RenameReplay(const FString& ReplayName, const FString& NewFriendlyReplayName)
 {
